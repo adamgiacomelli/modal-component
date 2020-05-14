@@ -1,0 +1,1 @@
+export { default as ModalComponent } from "./components/ModalComponent";
