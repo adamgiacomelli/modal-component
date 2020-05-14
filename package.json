@@ -1,12 +1,11 @@
 {
   "name": "modal-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A modal component",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/index.js",
-    "install": "parcel build src/index.js"
+    "build": "parcel build src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,13 +17,15 @@
     "url": "https://github.com/adamgiacomelli/modal-component/issues"
   },
   "homepage": "https://github.com/adamgiacomelli/modal-component#readme",
-  "dependencies": {
+  "peerDependencies": {
+    "react": ">= 16.8.0 < 2",
+    "react-dom": ">= 16.8.0 < 2"
+  },
+  "devDependencies": {
     "@babel/runtime": "7.9.2",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "classnames": "2.2.6"
-  },
-  "devDependencies": {
+    "classnames": "2.2.6",
     "@babel/core": "7.9.0",
     "@babel/plugin-transform-runtime": "7.9.0",
     "parcel-bundler": "1.12.4"
