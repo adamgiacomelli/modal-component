@@ -4,7 +4,7 @@ const ModalComponent = ({ text = "Default Text", component }) => {
   return (
     <div>
       <button>{text}</button>
-      {component && {component}}
+      {component}
     </div>
   );
 }
